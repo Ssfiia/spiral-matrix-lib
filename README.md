@@ -7,7 +7,7 @@ https://github.com/avito-tech/python-trainee-assignment
 
 ## Что сделано
 - 'async def get_matrix(url: str) -> list[int]' — загрузка через aiohttp
-- Разбор ASCII-таблицы в матрицу
+- Разбор таблицы в матрицу
 - Обход по спирали против часовой стрелки
 - Работает на квадратных матрицах любой размерности
 - Тест на test case из ТЗ
