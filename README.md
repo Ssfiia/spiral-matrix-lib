@@ -21,6 +21,6 @@ https://github.com/avito-tech/python-trainee-assignment
 - python -m pytest -v
 - python run.py
 
-## Как проверяли
+## Как проверитть
 - python -m pytest -v  →  test_get_matrix PASSED, означает верно выполненную работу
 - python run.py → [10, 50, 90, 130, 140, 150, 160, 120, 80, 40, 30, 20, 60, 100, 110, 70],  результат обхода матрицы по спирали: против часовой стрелки, начиная с левого верхнего угла.
