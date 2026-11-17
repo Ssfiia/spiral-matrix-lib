@@ -16,11 +16,11 @@ https://github.com/avito-tech/python-trainee-assignment
 - ошибки сервера и сетевые ошибки (5xx, Connection Timeout, Connection Refused) — не хватит времени, основной сценарий от них не зависит
 
 ## Как запустить
-pip install -r requirements.txt
-pip install pytest
-python -m pytest -v
-python run.py
+- pip install -r requirements.txt 
+- pip install pytest
+- python -m pytest -v
+- python run.py
 
 ## Как проверяли
-python -m pytest -v  →  test_get_matrix PASSED, означает верно выполненную работу
-python run.py → [10, 50, 90, 130, 140, 150, 160, 120, 80, 40, 30, 20, 60, 100, 110, 70],  результат обхода матрицы по спирали: против часовой стрелки, начиная с левого верхнего угла.
+- python -m pytest -v  →  test_get_matrix PASSED, означает верно выполненную работу
+- python run.py → [10, 50, 90, 130, 140, 150, 160, 120, 80, 40, 30, 20, 60, 100, 110, 70],  результат обхода матрицы по спирали: против часовой стрелки, начиная с левого верхнего угла.
