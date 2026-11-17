@@ -13,6 +13,11 @@ def _parse(text: str) -> List[List[int]]:
         if not m:
             continue
         rows.append([int(c.strip()) for c in m.group(1).split("|")])
+    if rows:
+        n = len(rows)
+        for row in rows:
+            if len(row) != n:
+                raise ValueError("Матрица не является квадратной")  
     return rows
 
 def _spiral(matrix: List[List[int]]) -> List[int]:
